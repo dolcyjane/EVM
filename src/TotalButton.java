@@ -1,6 +1,6 @@
 public class TotalButton extends Button
 {
-	//CU cu = new CU();
+	
 	int count;
 	
 	public void getTotalVoters()
@@ -12,4 +12,10 @@ public class TotalButton extends Button
 		}
 		System.out.println(count);
 	}
+	
+	public int getTotal()
+	{
+		return count;
+	}
+	
 }
